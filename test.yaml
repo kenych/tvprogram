@@ -1,0 +1,13 @@
+logging:
+  level: INFO
+  loggers:
+    tvprogram: DEBUG
+
+broadcastClientConfig:
+  protocol: http
+  port: 8082
+  host: localhost
+
+http:
+ port: 8080
+ adminPort: 8081
